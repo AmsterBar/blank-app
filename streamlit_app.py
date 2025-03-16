@@ -2,10 +2,6 @@ import streamlit as st
 
 st.title("🎈 My new app")
 st.write(
-import streamlit as st  
-import pandas as pd  
-import datetime  
-
 # פונקציה לטעינת הנתונים מה-Session
 if "tasks" not in st.session_state:
     st.session_state.tasks = []
